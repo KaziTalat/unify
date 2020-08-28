@@ -1,0 +1,374 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .blog-right {
+    padding-left: 10px;
+    padding-top: 0px;
+  }
+
+  .blog-title h4 {
+    padding: 10px 0;
+  }
+
+  .blog-title p {
+    margin-bottom: 7px;
+  }
+
+  .newslatter form {
+    width: 100%;
+  }
+
+  .clint-text {
+    padding-top: 28px;
+  }
+
+  .about-img {
+    margin-top: 50px;
+  }
+
+  .about-img::after {
+    height: 223px;
+    right: 57px;
+  }
+}
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  .main-menu ul li a {
+    padding: 40px 7px;
+  }
+
+  #sticky-header.sticky-menu ul li a {
+    padding: 25px 7px;
+  }
+
+  .single-slider {
+    min-height: 80vh;
+  }
+
+  .slider-content {
+    top: 56%;
+  }
+
+  .protfolio-part button {
+    margin: 0 26px;
+    padding-bottom: 13px;
+  }
+
+  .about-img {
+    margin-bottom: 80px;
+    text-align: center;
+  }
+
+  .about-img::after {
+    right: 136px;
+  }
+
+  .team-overlay {
+    bottom: -60%;
+  }
+
+  .team-icon li i {
+    height: 30px;
+    width: 30px;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .team-img {
+    height: 100%;
+  }
+
+  .team-content {
+    top: 10%;
+  }
+
+  .clint-text span {
+    margin-bottom: 9px;
+  }
+
+  .clint-text::before {
+    border-width: 15px 37px 15px 0;
+    left: -21px;
+  }
+
+  .client-img {
+    margin-top: 93px;
+  }
+
+  .blog-title h4 {
+    font-size: 15px;
+    padding: 33px 0;
+  }
+
+  .newslatter form {
+    width: 100%;
+  }
+
+  .clint-text {
+    padding-top: 60px;
+    padding-left: 20px;
+  }
+}
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  #sticky-header.sticky-menu .header-area .logo {
+    margin-top: 8px;
+  }
+
+  #sticky-header.sticky-menu ul li a {
+    padding: 6px 5px;
+  }
+
+  #sticky-header.sticky-menu ul li ul li a {
+    padding: 7px 15%;
+  }
+
+  .single-slider {
+    min-height: 75vh;
+  }
+
+  .slider-content h2 {
+    font-size: 50px;
+  }
+
+  .slider-content {
+    top: 56%;
+  }
+
+  .service-text p {
+    margin: 20px 0;
+    padding: 0 73px;
+  }
+
+  .protfolio-part button {
+    margin: 7px 30px;
+    font-size: 13px;
+  }
+
+  .protfolio-img img {
+    height: 400px;
+    width: 100%;
+  }
+
+  .about-img::after {
+    height: 300px;
+    top: 8px;
+    right: 67px;
+  }
+
+  .about-img {
+    margin-bottom: 56px;
+  }
+
+  .single-team {
+    margin-bottom: 30px;
+  }
+
+  .newslatter form {
+    width: 100%;
+  }
+
+  .single-contact {
+    padding-right: 75px;
+  }
+
+  .footer-area a {
+    float: none;
+  }
+
+  .footer-icon {
+    float: none;
+  }
+
+  .footer-wrapper {
+    display: block;
+    text-align: center;
+  }
+
+  .footer-icon ul li a i {
+    padding-left: -2px;
+  }
+
+  .clint-text {
+    padding-top: 60px;
+    padding-left: 20px;
+  }
+}
+
+/* Extra small Device. */
+@media (max-width: 576px) {
+  #sticky-header.sticky-menu .header-area .logo {
+    margin-top: 8px;
+  }
+
+  #sticky-header.sticky-menu .header-area .logo {
+    margin-top: 8px;
+  }
+
+  #sticky-header.sticky-menu ul li a {
+    padding: 6px 5px;
+  }
+
+  #sticky-header.sticky-menu ul li ul li a {
+    padding: 7px 15%;
+  }
+
+  .slider-content h2 {
+    font-size: 45px;
+  }
+
+  .single-slider {
+    min-height: 70vh;
+  }
+
+  .single-service {
+    margin-bottom: 50px;
+  }
+
+  .protfolio-part button {
+    margin: 7px 20px;
+    font-size: 13px;
+  }
+
+  .protfolio-img img {
+    height: 400px;
+    width: 100%;
+  }
+
+  .about-img {
+    margin-bottom: 56px;
+  }
+
+  .about-img::after {
+    height: 228px;
+    top: 35px;
+    right: 62px;
+  }
+
+  .single-team {
+    margin-bottom: 30px;
+  }
+
+  .clint-text {
+    padding-top: 22px;
+    padding-left: 40px;
+    width: 282px;
+    padding-right: 50px;
+  }
+
+  .blog-left {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .blog-right {
+    width: 100%;
+  }
+
+  .newslatter form {
+    width: 100%;
+  }
+
+  .single-contact {
+    padding-right: 75px;
+  }
+
+  .footer-area a {
+    float: none;
+  }
+
+  .footer-icon {
+    float: none;
+  }
+
+  .footer-wrapper {
+    display: block;
+    text-align: center;
+  }
+
+  .footer-icon ul li a i {
+    padding-left: 0px;
+  }
+}
+
+/* mobile Device. */
+@media (max-width: 420px) {
+  .slider-content h2 {
+    font-size: 35px;
+  }
+
+  .slider-content span {
+    font-size: 20px;
+  }
+
+  .slider-btn a {
+    padding: 10px 30px;
+  }
+
+  .about-img::after {
+    height: 208px;
+    top: 13px;
+    right: 47px;
+  }
+
+  .clint-text {
+    padding-top: 12px;
+    padding-left: 19px;
+    width: 282px;
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 350px) {
+  .single-slider {
+    min-height: 60vh;
+  }
+
+  .about-img::after {
+    height: 177px;
+    top: 13px;
+    right: 40px;
+  }
+
+  .clint-text span {
+    margin-bottom: 20px;
+  }
+
+  .client-img {
+    margin-top: 83px;
+  }
+}
+
+@media (max-width: 320px) {
+  .slider-btn a {
+    padding: 8px 25px;
+  }
+
+  .slider-content h2 {
+    font-size: 30px;
+  }
+
+  .single-slider {
+    min-height: 55vh;
+  }
+
+  .protfolio-part button {
+    margin: 7px 10px;
+  }
+
+  .about-img::after {
+    height: 167px;
+    top: 7px;
+    right: 35px;
+  }
+
+  .clint-text span {
+    margin-bottom: 6px;
+  }
+}
+
+/* By Kazi Talat Hridoy */
